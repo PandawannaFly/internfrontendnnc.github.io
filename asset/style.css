@@ -1,0 +1,49 @@
+*{
+    padding: 0;  
+    margin: 0;
+    box-sizing: border-box; 
+}
+html { 
+    scroll-behavior: smooth; /*hiệu ứng cuộn trang */
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    
+}
+.vertical-nav{
+    position: absolute;
+    width: 150px;
+    height: 935px;
+    background-color: #191718;
+}
+.vertical-nav li a {
+    background-color:#191718; /* Grey background color */
+    color: #fff; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */   
+}
+.vertical-nav li a:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+.content img{
+    width: 1500px;
+    height: 930px;
+    padding-left:150px;
+}
+/* #footer {
+    
+}
+#footer .copyright {
+    position: absolute;
+    width: 125px;
+    height: 19px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    float: left;
+} */
